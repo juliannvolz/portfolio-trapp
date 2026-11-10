@@ -1,0 +1,3 @@
+module.exports=[46932,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call ChapterIndex() from the server but ChapterIndex is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/components/layout/ChapterIndex.tsx","ChapterIndex");a.s(["ChapterIndex",0,b])},58997,a=>{"use strict";var b=a.i(46932);a.n(b)}];
+
+//# sourceMappingURL=src_components_layout_ChapterIndex_tsx_1p4g889n52vn-._.js.map
