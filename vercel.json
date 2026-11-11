@@ -1,0 +1,7 @@
+{
+  "buildCommand": "NEXT_PRIVATE_SKIP_TURBOPACK=1 next build",
+  "outputDirectory": "out",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "devCommand": "next dev --turbopack"
+}
