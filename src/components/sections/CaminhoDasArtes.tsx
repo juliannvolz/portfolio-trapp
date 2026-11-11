@@ -117,7 +117,7 @@ export function CaminhoDasArtes() {
           <div className="hidden lg:block">
             <PinScrub length={4000} horizontal id="caminho-pin" className="mb-16">
               {caminhoFrames.map((frame) => (
-                <article key={frame.id} className="w-[80vw] flex-shrink-0 px-4">
+                <article key={frame.id} id={frame.id} className="w-[80vw] flex-shrink-0 px-4">
                   <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-[var(--color-concrete-800)]">
                     <SmartImage src={frame.img} alt={frame.alt} fill priority={false} className="object-cover transition-transform duration-700 group-hover:scale-105" />
                     <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-concrete-900)]/80 via-transparent to-transparent" aria-hidden="true" />
@@ -133,7 +133,7 @@ export function CaminhoDasArtes() {
 
           <div className="lg:hidden space-y-8">
             {caminhoFrames.map((frame) => (
-              <article key={frame.id} className="group">
+              <article key={frame.id} id={frame.id} className="group">
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-[var(--color-concrete-800)]">
                   <LightSweep temperature={3000} angle={-15} duration={0.7} trigger={`#${frame.id}`}>
                     <SmartImage src={frame.img} alt={frame.alt} fill className="object-cover transition-transform duration-700 group-hover:scale-105" />

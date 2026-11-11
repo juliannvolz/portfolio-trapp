@@ -83,6 +83,7 @@ export function WorkSheet({ work, index, onClick }: WorkSheetProps) {
   return (
     <button
       ref={ref}
+      id={work.id}
       type="button"
       className={cn('group relative overflow-hidden cursor-pointer w-full', 'transition-transform duration-300 hover:scale-[1.01]', 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-gold)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-concrete-900)]')}
       onMouseEnter={() => setHovered(true)}

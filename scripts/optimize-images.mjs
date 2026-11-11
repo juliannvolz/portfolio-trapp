@@ -23,9 +23,7 @@ async function getImageFiles(dir) {
   const files = [];
   for (const entry of entries) {
     const full = join(dir, entry.name);
-    if (entry.isDirectory()) {
-      files.push(...await getImageFiles(full));
-    } else if (/\.(jpe?g|png|webp|avif)$/i.test(entry.name)) {
+    if (!entry.isDirectory() && /\.(jpe?g|png|webp|avif)$/i.test(entry.name)) {
       files.push(full);
     }
   }

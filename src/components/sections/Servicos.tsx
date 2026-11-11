@@ -57,6 +57,7 @@ export function Servicos() {
           {services.map((svc, i) => (
             <article
               key={svc.id}
+              id={svc.id}
               className={cn('service-item relative', svc.id === 'tatuagem' && 'tattoo-section')}
             >
               <LightSweep

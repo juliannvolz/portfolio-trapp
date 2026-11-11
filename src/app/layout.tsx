@@ -73,8 +73,8 @@ export default function RootLayout({
             __html: 'document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");',
           }}
         />
-        <link rel="preload" as="image" href="/images/caminho-das-artes-principal-w2000.avif" imageSrcSet="/images/caminho-das-artes-principal-w480.avif 480w, /images/caminho-das-artes-principal-w640.avif 640w, /images/caminho-das-artes-principal-w960.avif 960w, /images/caminho-das-artes-principal-w1280.avif 1280w, /images/caminho-das-artes-principal-w1600.avif 1600w, /images/caminho-das-artes-principal-w2000.avif 2000w" imageSizes="100vw" />
-        <link rel="preload" as="image" href="/images/caminho-das-artes-principal-w2000.webp" imageSrcSet="/images/caminho-das-artes-principal-w480.webp 480w, /images/caminho-das-artes-principal-w640.webp 640w, /images/caminho-das-artes-principal-w960.webp 960w, /images/caminho-das-artes-principal-w1280.webp 1280w, /images/caminho-das-artes-principal-w1600.webp 1600w, /images/caminho-das-artes-principal-w2000.webp 2000w" imageSizes="100vw" />
+        <link rel="preload" as="image" href="/images/caminho-das-artes-principal-w960.avif" imageSrcSet="/images/caminho-das-artes-principal-w480.avif 480w, /images/caminho-das-artes-principal-w640.avif 640w, /images/caminho-das-artes-principal-w750.avif 750w, /images/caminho-das-artes-principal-w960.avif 960w" imageSizes="100vw" />
+        <link rel="preload" as="image" href="/images/caminho-das-artes-principal-w960.webp" imageSrcSet="/images/caminho-das-artes-principal-w480.webp 480w, /images/caminho-das-artes-principal-w640.webp 640w, /images/caminho-das-artes-principal-w750.webp 750w, /images/caminho-das-artes-principal-w960.webp 960w" imageSizes="100vw" />
       </head>
       <body>
         <a href="#main" className="skip-link">
