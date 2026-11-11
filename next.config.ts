@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: { unoptimized: true },
   experimental: { optimizePackageImports: ['gsap', 'motion'] },
+  turbopack: false,
 };
 
 export default nextConfig;
