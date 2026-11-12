@@ -1,0 +1,926 @@
+[
+  {
+    "id": "ave-caminho-artes",
+    "src": "ave-caminho-artes.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "ave-caminho-artes-w480.avif",
+        "webp": "ave-caminho-artes-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "ave-caminho-artes-w640.avif",
+        "webp": "ave-caminho-artes-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "ave-caminho-artes-w960.avif",
+        "webp": "ave-caminho-artes-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACltZGF0EgAKCDgRJ6YQENBpMhMcgAggQQQAo7MlFAF4BvTi2otg"
+  },
+  {
+    "id": "caligra-cliente-pronto",
+    "src": "caligra-cliente-pronto.jpg",
+    "width": 720,
+    "height": 1280,
+    "aspect": 0.563,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "caligra-cliente-pronto-w480.avif",
+        "webp": "caligra-cliente-pronto-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "avif": "caligra-cliente-pronto-w640.avif",
+        "webp": "caligra-cliente-pronto-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAJAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACltZGF0EgAKCTgRZxsICGg0gDISHIAEEAAEALacUrNJKOTB4eRg"
+  },
+  {
+    "id": "caligra-grafite",
+    "src": "caligra-grafite.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "caligra-grafite-w480.avif",
+        "webp": "caligra-grafite-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "caligra-grafite-w640.avif",
+        "webp": "caligra-grafite-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "caligra-grafite-w960.avif",
+        "webp": "caligra-grafite-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACFtZGF0EgAKCDgRJ6YQENBpMgscgAAAQAcERj2INw=="
+  },
+  {
+    "id": "caligra-parede-azul",
+    "src": "caligra-parede-azul.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "caligra-parede-azul-w480.avif",
+        "webp": "caligra-parede-azul-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "caligra-parede-azul-w640.avif",
+        "webp": "caligra-parede-azul-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "caligra-parede-azul-w960.avif",
+        "webp": "caligra-parede-azul-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACltZGF0EgAKCDgRJ6YQENBpMhMcgAggQQUAlxbSbm3n/ZjL564g"
+  },
+  {
+    "id": "caligra-parede-azul2",
+    "src": "caligra-parede-azul2.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "caligra-parede-azul2-w480.avif",
+        "webp": "caligra-parede-azul2-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "caligra-parede-azul2-w640.avif",
+        "webp": "caligra-parede-azul2-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "caligra-parede-azul2-w960.avif",
+        "webp": "caligra-parede-azul2-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACRtZGF0EgAKCDgRJ6YQENBpMg4cgAAAQAb/mHBghl8Z3w=="
+  },
+  {
+    "id": "caligra-parede-branca",
+    "src": "caligra-parede-branca.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "caligra-parede-branca-w480.avif",
+        "webp": "caligra-parede-branca-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "caligra-parede-branca-w640.avif",
+        "webp": "caligra-parede-branca-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "caligra-parede-branca-w960.avif",
+        "webp": "caligra-parede-branca-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACFtZGF0EgAKCDgRJ6YQENBpMgscgAAAQA+FNihXoA=="
+  },
+  {
+    "id": "caligrafite-abstrato",
+    "src": "caligrafite-abstrato.jpg",
+    "width": 720,
+    "height": 1280,
+    "aspect": 0.563,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "caligrafite-abstrato-w480.avif",
+        "webp": "caligrafite-abstrato-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "avif": "caligrafite-abstrato-w640.avif",
+        "webp": "caligrafite-abstrato-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAJAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAJAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACxtZGF0EgAKCTgRZxsICGg0gDIVHIAAAECIqgGz7jJuNKy5DaWUkbaA"
+  },
+  {
+    "id": "caligrafite-cliente",
+    "src": "caligrafite-cliente.jpg",
+    "width": 720,
+    "height": 1280,
+    "aspect": 0.563,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "caligrafite-cliente-w480.avif",
+        "webp": "caligrafite-cliente-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "avif": "caligrafite-cliente-w640.avif",
+        "webp": "caligrafite-cliente-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAJAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACttZGF0EgAKCTgRZxsICGg0gDIUHIAAAEAfKmsY+p+D/SWJ+9Lmb14="
+  },
+  {
+    "id": "caligrafite-studio-tattoo",
+    "src": "caligrafite-studio-tattoo.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "caligrafite-studio-tattoo-w480.avif",
+        "webp": "caligrafite-studio-tattoo-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "caligrafite-studio-tattoo-w640.avif",
+        "webp": "caligrafite-studio-tattoo-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "caligrafite-studio-tattoo-w960.avif",
+        "webp": "caligrafite-studio-tattoo-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAAChtZGF0EgAKCDgRJ6YQENBpMhIcgAggQAQAo5StKpnr7Jf5MHg="
+  },
+  {
+    "id": "caligrafite-studio",
+    "src": "caligrafite-studio.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "caligrafite-studio-w480.avif",
+        "webp": "caligrafite-studio-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "caligrafite-studio-w640.avif",
+        "webp": "caligrafite-studio-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "caligrafite-studio-w960.avif",
+        "webp": "caligrafite-studio-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACFtZGF0EgAKCDgRJ6YQENBpMgscgAAAQGj5MPucUA=="
+  },
+  {
+    "id": "caminho-das-artes-principal",
+    "src": "caminho-das-artes-principal.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "caminho-das-artes-principal-w480.avif",
+        "webp": "caminho-das-artes-principal-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "caminho-das-artes-principal-w640.avif",
+        "webp": "caminho-das-artes-principal-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "caminho-das-artes-principal-w960.avif",
+        "webp": "caminho-das-artes-principal-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACZtZGF0EgAKCDgRJ6YQENBpMhAcgAAAQCNfrLlg8bUddHq6"
+  },
+  {
+    "id": "captacao-caminho-artes",
+    "src": "captacao-caminho-artes.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "captacao-caminho-artes-w480.avif",
+        "webp": "captacao-caminho-artes-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "captacao-caminho-artes-w640.avif",
+        "webp": "captacao-caminho-artes-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "captacao-caminho-artes-w960.avif",
+        "webp": "captacao-caminho-artes-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACZtZGF0EgAKCDgRJ6YQENBpMhAcgAAAQKOxrpCl9kOUZX2w"
+  },
+  {
+    "id": "cliente-piolho-caligra-escada",
+    "src": "cliente-piolho-caligra-escada.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "cliente-piolho-caligra-escada-w480.avif",
+        "webp": "cliente-piolho-caligra-escada-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "cliente-piolho-caligra-escada-w640.avif",
+        "webp": "cliente-piolho-caligra-escada-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "cliente-piolho-caligra-escada-w960.avif",
+        "webp": "cliente-piolho-caligra-escada-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACZtZGF0EgAKCDgRJ6YQENBpMhAcgAAAQDGbE+aNdGG0hvL0"
+  },
+  {
+    "id": "grafite-academia",
+    "src": "grafite-academia.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "grafite-academia-w480.avif",
+        "webp": "grafite-academia-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "grafite-academia-w640.avif",
+        "webp": "grafite-academia-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "grafite-academia-w960.avif",
+        "webp": "grafite-academia-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACNtZGF0EgAKCDgRJ6YQENBpMg0cgAAAQCMvq6vhGdFA"
+  },
+  {
+    "id": "grafite-escrita",
+    "src": "grafite-escrita.jpg",
+    "width": 720,
+    "height": 1280,
+    "aspect": 0.563,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "grafite-escrita-w480.avif",
+        "webp": "grafite-escrita-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "avif": "grafite-escrita-w640.avif",
+        "webp": "grafite-escrita-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAJAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACdtZGF0EgAKCTgRZxsICGg0gDIQHIAAAEAdSJuMdPFh052SwA=="
+  },
+  {
+    "id": "grafite-estudio",
+    "src": "grafite-estudio.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "grafite-estudio-w480.avif",
+        "webp": "grafite-estudio-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "grafite-estudio-w640.avif",
+        "webp": "grafite-estudio-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "grafite-estudio-w960.avif",
+        "webp": "grafite-estudio-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACltZGF0EgAKCDgRJ6YQENBpMhMcgBBAQQQAsOQecxVhqbafx6Rx"
+  },
+  {
+    "id": "grafite-studio3",
+    "src": "grafite-studio3.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "grafite-studio3-w480.avif",
+        "webp": "grafite-studio3-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "grafite-studio3-w640.avif",
+        "webp": "grafite-studio3-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "grafite-studio3-w960.avif",
+        "webp": "grafite-studio3-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACdtZGF0EgAKCDgRJ6YQENBpMhEcgAggQAQAqnDVsnD0O9kRQA=="
+  },
+  {
+    "id": "logo-tipo2",
+    "src": "logo-tipo2.jpg",
+    "width": 889,
+    "height": 1280,
+    "aspect": 0.695,
+    "variants": [
+      {
+        "width": 480,
+        "height": 691,
+        "avif": "logo-tipo2-w480.avif",
+        "webp": "logo-tipo2-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 921,
+        "avif": "logo-tipo2-w640.avif",
+        "webp": "logo-tipo2-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAHQAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACBtZGF0EgAKCDgRJ8YQENBpMgocgAAAQAUPHazI"
+  },
+  {
+    "id": "logo-trapp",
+    "src": "logo-trapp.jpg",
+    "width": 1280,
+    "height": 889,
+    "aspect": 1.44,
+    "variants": [
+      {
+        "width": 480,
+        "height": 333,
+        "avif": "logo-trapp-w480.avif",
+        "webp": "logo-trapp-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 445,
+        "avif": "logo-trapp-w640.avif",
+        "webp": "logo-trapp-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 667,
+        "avif": "logo-trapp-w960.avif",
+        "webp": "logo-trapp-w960.webp"
+      },
+      {
+        "width": 1280,
+        "height": 889,
+        "avif": "logo-trapp-w1280.avif",
+        "webp": "logo-trapp-w1280.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAADgAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACJtZGF0EgAKCDgQ56wgIaDSMgwcgAAAQAHfz1s8Qwo="
+  },
+  {
+    "id": "logo3.1",
+    "src": "logo3.1.jpg",
+    "width": 889,
+    "height": 1280,
+    "aspect": 0.695,
+    "variants": [
+      {
+        "width": 480,
+        "height": 691,
+        "avif": "logo3.1-w480.avif",
+        "webp": "logo3.1-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 921,
+        "avif": "logo3.1-w640.avif",
+        "webp": "logo3.1-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAHQAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACFtZGF0EgAKCDgRJ8YQENBpMgscgAAAQAUPHay2wA=="
+  },
+  {
+    "id": "logo3",
+    "src": "logo3.jpg",
+    "width": 889,
+    "height": 1280,
+    "aspect": 0.695,
+    "variants": [
+      {
+        "width": 480,
+        "height": 691,
+        "avif": "logo3-w480.avif",
+        "webp": "logo3-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 921,
+        "avif": "logo3-w640.avif",
+        "webp": "logo3-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAHQAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACBtZGF0EgAKCDgRJ8YQENBpMgocgAAAQAUPHazI"
+  },
+  {
+    "id": "logo4",
+    "src": "logo4.jpg",
+    "width": 591,
+    "height": 1280,
+    "aspect": 0.462,
+    "variants": [
+      {
+        "width": 480,
+        "height": 1040,
+        "avif": "logo4-w480.avif",
+        "webp": "logo4-w480.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAALAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACJtZGF0EgAKCTgRZ1sICGg0gDILHIAAAEAc8wLuoxA="
+  },
+  {
+    "id": "processo-arte",
+    "src": "processo-arte.jpg",
+    "width": 1280,
+    "height": 853,
+    "aspect": 1.501,
+    "variants": [
+      {
+        "width": 480,
+        "height": 320,
+        "avif": "processo-arte-w480.avif",
+        "webp": "processo-arte-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 427,
+        "avif": "processo-arte-w640.avif",
+        "webp": "processo-arte-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 640,
+        "avif": "processo-arte-w960.avif",
+        "webp": "processo-arte-w960.webp"
+      },
+      {
+        "width": 1280,
+        "height": 853,
+        "avif": "processo-arte-w1280.avif",
+        "webp": "processo-arte-w1280.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAGwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAADQAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACNtZGF0EgAKCDgQ54wgIaDSMg0cgAAAQATeIL3RrOFY"
+  },
+  {
+    "id": "processo-caligra-tela",
+    "src": "processo-caligra-tela.jpg",
+    "width": 588,
+    "height": 1280,
+    "aspect": 0.459,
+    "variants": [
+      {
+        "width": 480,
+        "height": 1045,
+        "avif": "processo-caligra-tela-w480.avif",
+        "webp": "processo-caligra-tela-w480.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAALAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACdtZGF0EgAKCTgRZ1sICGg0gDIQHIAAAEAc+cCbOnsZEwm6QA=="
+  },
+  {
+    "id": "processo-caminho-artes",
+    "src": "processo-caminho-artes.jpg",
+    "width": 853,
+    "height": 1280,
+    "aspect": 0.666,
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "avif": "processo-caminho-artes-w480.avif",
+        "webp": "processo-caminho-artes-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 960,
+        "avif": "processo-caminho-artes-w640.avif",
+        "webp": "processo-caminho-artes-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAHgAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACRtZGF0EgAKCDgRJ9YQENBpMg4cgAAAQHfUP356SF/Uyw=="
+  },
+  {
+    "id": "processo-caminho-das-artes",
+    "src": "processo-caminho-das-artes.jpg",
+    "width": 853,
+    "height": 1280,
+    "aspect": 0.666,
+    "variants": [
+      {
+        "width": 480,
+        "height": 720,
+        "avif": "processo-caminho-das-artes-w480.avif",
+        "webp": "processo-caminho-das-artes-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 960,
+        "avif": "processo-caminho-das-artes-w640.avif",
+        "webp": "processo-caminho-das-artes-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAHgAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAAChtZGF0EgAKCDgRJ9YQENBpMhIcgAwwQQQAo7GuchZmwhrIEYA="
+  },
+  {
+    "id": "processo-caminho-das-artes3",
+    "src": "processo-caminho-das-artes3.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "processo-caminho-das-artes3-w480.avif",
+        "webp": "processo-caminho-das-artes3-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "processo-caminho-das-artes3-w640.avif",
+        "webp": "processo-caminho-das-artes3-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "processo-caminho-das-artes3-w960.avif",
+        "webp": "processo-caminho-das-artes3-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACltZGF0EgAKCDgRJ6YQENBpMhMcgBBAQQQAp2MozQdy/YSx/JSQ"
+  },
+  {
+    "id": "processo-grafite-academia",
+    "src": "processo-grafite-academia.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "processo-grafite-academia-w480.avif",
+        "webp": "processo-grafite-academia-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "processo-grafite-academia-w640.avif",
+        "webp": "processo-grafite-academia-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "processo-grafite-academia-w960.avif",
+        "webp": "processo-grafite-academia-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACVtZGF0EgAKCDgRJ6YQENBpMg8cgAAAQDI05Bo0noPK+8A="
+  },
+  {
+    "id": "processo-tela-caligra",
+    "src": "processo-tela-caligra.jpg",
+    "width": 704,
+    "height": 1228,
+    "aspect": 0.573,
+    "variants": [
+      {
+        "width": 480,
+        "height": 837,
+        "avif": "processo-tela-caligra-w480.avif",
+        "webp": "processo-tela-caligra-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1116,
+        "avif": "processo-tela-caligra-w640.avif",
+        "webp": "processo-tela-caligra-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIwAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAIwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACttZGF0EgAKCTgRZxMICGg0gDIUHIAQQAEEAOTK+KRtfTrEyB9u88A="
+  },
+  {
+    "id": "processo-tucano-sinners",
+    "src": "processo-tucano-sinners.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "processo-tucano-sinners-w480.avif",
+        "webp": "processo-tucano-sinners-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "processo-tucano-sinners-w640.avif",
+        "webp": "processo-tucano-sinners-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "processo-tucano-sinners-w960.avif",
+        "webp": "processo-tucano-sinners-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACltZGF0EgAKCDgRJ6YQENBpMhMcgBBAAAQAqqKf9PTWICxI3hyn"
+  },
+  {
+    "id": "processo-tucano-sinners2",
+    "src": "processo-tucano-sinners2.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "processo-tucano-sinners2-w480.avif",
+        "webp": "processo-tucano-sinners2-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "processo-tucano-sinners2-w640.avif",
+        "webp": "processo-tucano-sinners2-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "processo-tucano-sinners2-w960.avif",
+        "webp": "processo-tucano-sinners2-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAAChtZGF0EgAKCDgRJ6YQENBpMhIcgAAAQKq48Bblq+Z1kz5VpoA="
+  },
+  {
+    "id": "processo-tucano-sinners3",
+    "src": "processo-tucano-sinners3.jpg",
+    "width": 720,
+    "height": 1280,
+    "aspect": 0.563,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "processo-tucano-sinners3-w480.avif",
+        "webp": "processo-tucano-sinners3-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "avif": "processo-tucano-sinners3-w640.avif",
+        "webp": "processo-tucano-sinners3-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAJAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAAChtZGF0EgAKCTgRZxsICGg0gDIRHIAAAEAeFdiurCEAb/H/WQc="
+  },
+  {
+    "id": "processo2-caminho-artes",
+    "src": "processo2-caminho-artes.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "processo2-caminho-artes-w480.avif",
+        "webp": "processo2-caminho-artes-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "processo2-caminho-artes-w640.avif",
+        "webp": "processo2-caminho-artes-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "processo2-caminho-artes-w960.avif",
+        "webp": "processo2-caminho-artes-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACptZGF0EgAKCDgRJ6YQENBpMhQcgAggQAQAkKdcGacmpxFlwxwjQA=="
+  },
+  {
+    "id": "quadro-parede-caligrafite",
+    "src": "quadro-parede-caligrafite.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "quadro-parede-caligrafite-w480.avif",
+        "webp": "quadro-parede-caligrafite-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "quadro-parede-caligrafite-w640.avif",
+        "webp": "quadro-parede-caligrafite-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "quadro-parede-caligrafite-w960.avif",
+        "webp": "quadro-parede-caligrafite-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHQAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACVtZGF0EgAKCDgRJ6YQENBpMg8cgAQQAAQApIrYH6SVUoA="
+  },
+  {
+    "id": "quadro-parede-caligrafrite",
+    "src": "quadro-parede-caligrafrite.jpg",
+    "width": 960,
+    "height": 1280,
+    "aspect": 0.75,
+    "variants": [
+      {
+        "width": 480,
+        "height": 640,
+        "avif": "quadro-parede-caligrafrite-w480.avif",
+        "webp": "quadro-parede-caligrafrite-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 853,
+        "avif": "quadro-parede-caligrafrite-w640.avif",
+        "webp": "quadro-parede-caligrafrite-w640.webp"
+      },
+      {
+        "width": 960,
+        "height": 1280,
+        "avif": "quadro-parede-caligrafrite-w960.avif",
+        "webp": "quadro-parede-caligrafrite-w960.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAIAAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAGwAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAAChtZGF0EgAKCDgRJ6YQENBpMhIcgAQQAAQApI/JnT3N5GLEQcA="
+  },
+  {
+    "id": "ruan-trapp3x4",
+    "src": "ruan-trapp3x4.jpg",
+    "width": 720,
+    "height": 1280,
+    "aspect": 0.563,
+    "variants": [
+      {
+        "width": 480,
+        "height": 853,
+        "avif": "ruan-trapp3x4-w480.avif",
+        "webp": "ruan-trapp3x4-w480.webp"
+      },
+      {
+        "width": 640,
+        "height": 1138,
+        "avif": "ruan-trapp3x4-w640.avif",
+        "webp": "ruan-trapp3x4-w640.webp"
+      }
+    ],
+    "lqip": "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZgAAAOptZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAAA5waXRtAAAAAAABAAAAImlsb2MAAAAAREAAAQABAAAAAAEOAAEAAAAAAAAAHgAAACNpaW5mAAAAAAABAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAamlwcnAAAABLaXBjbwAAABNjb2xybmNseAABAA0ABoAAAAAMYXYxQ4EgAgAAAAAUaXNwZQAAAAAAAAAUAAAAJAAAABBwaXhpAAAAAAMICAgAAAAXaXBtYQAAAAAAAAABAAEEAYIDBAAAACZtZGF0EgAKCTgRZxsICGg0gDIPHIAAAEAlAgVHVgDfdXQg"
+  }
+]

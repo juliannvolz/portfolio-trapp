@@ -1,0 +1,3 @@
+module.exports=[90531,a=>{"use strict";let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call SoundToggle() from the server but SoundToggle is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/src/components/layout/SoundToggle.tsx","SoundToggle");a.s(["SoundToggle",0,b])},77104,a=>{"use strict";var b=a.i(90531);a.n(b)}];
+
+//# sourceMappingURL=src_components_layout_SoundToggle_tsx_1d05p6lhqrobx._.js.map
