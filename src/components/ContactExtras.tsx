@@ -88,7 +88,7 @@ export function Farewell() {
     <section ref={sectionRef} className="farewell-section relative min-h-[50vh] flex items-center justify-center bg-ink border-t border-white/10" aria-label="Despedida">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.08)_0%,transparent_70%)]" />
       <div className="relative z-10 text-center px-6">
-        <img src="/images/logo-trapp-azul.jpg" alt="Trapp" className="farewell-logo mx-auto mb-8 max-w-[280px] h-auto opacity-90 filter drop-shadow-[0_0_40px_rgba(212,175,55,0.3)]" width="280" height="120" />
+        <img src="/images/logotrappazulsemfundo.png" alt="Trapp" className="farewell-logo mx-auto mb-8 max-w-[280px] h-auto opacity-90 filter drop-shadow-[0_0_40px_rgba(212,175,55,0.3)]" width="280" height="120" />
         <p className="farewell-text font-mono text-[9px] uppercase tracking-[0.3em] text-gold/60">Obrigado por chegar até aqui.</p>
         <p className="farewell-text mt-2 font-mono text-[9px] uppercase tracking-[0.3em] text-muted/50">Trapp · Jaraguá do Sul, SC</p>
       </div>
@@ -98,32 +98,39 @@ export function Farewell() {
 
 export function Footer() {
   return (
-    <footer className="relative overflow-hidden border-t border-white/10 bg-panel pb-24 pt-20 md:pb-10 md:pt-28">
-      <div className="page-shell">
-        <div className="grid gap-10 lg:grid-cols-12">
-          <Reveal className="lg:col-span-8">
-            <p className="eyebrow text-gold">08 / Vamos trabalhar juntos</p>
-            <a href={whatsappUrl("Olá, Trapp! Tenho um espaço e uma ideia. Podemos conversar sobre um projeto autoral?")} target="_blank" rel="noreferrer" className="group mt-7 block">
-              <span className="block font-display text-[clamp(4.8rem,11vw,11rem)] leading-[0.75] text-bone transition-colors group-hover:text-gold">Sua parede.</span>
-              <span className="ml-[6vw] flex items-center gap-5 font-display text-[clamp(4.8rem,11vw,11rem)] leading-[0.75] text-gold">Nossa história.<ArrowUpRight className="h-[0.5em] w-[0.5em] transition-transform duration-500 group-hover:rotate-45" strokeWidth={1} /></span>
+    <footer className="relative py-16 px-4 border-t border-[var(--color-concrete-700)]" role="contentinfo">
+      <div className="container mx-auto max-w-5xl">
+        <div className="grid md:grid-cols-3 gap-8">
+          <div>
+            <img 
+              src="/images/logotrappazulsemfundo.png" 
+              alt="Ruan Trapp" 
+              className="h-16 md:h-20 w-auto mx-auto md:mx-0 mb-4" 
+            />
+            <p className="type-mono text-[var(--color-silver)] text-center md:text-left">
+              Jaraguá do Sul — SC
+            </p>
+          </div>
+          <div>
+            <h3 className="type-mono text-[var(--color-light-5600)] mb-4">Créditos</h3>
+            <p className="text-[var(--color-bone-dim)] text-[var(--text-body)]">
+              Imagens: acervo do artista
+            </p>
+          </div>
+          <div className="text-right md:text-left">
+            <p className="type-mono text-[var(--color-silver)] mb-2">
+              © 2026 Ruan Trapp
+            </p>
+            <a
+              href="#topo"
+              className="type-mono text-[var(--color-gold)] hover:underline inline-flex items-center gap-2"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <path d="M18 15l-6-6-6 6" />
+              </svg>
+              voltar ao topo
             </a>
-          </Reveal>
-          <Reveal className="flex flex-col justify-end lg:col-span-3 lg:col-start-10" delay={0.12}>
-            <p className="text-sm font-light leading-7 text-muted">Murais, telas, calligraffiti e tatuagens autorais. Da primeira referência à obra no espaço.</p>
-            <div className="mt-6 flex flex-col items-start gap-4"><TextLink href={whatsappUrl("Olá, Trapp! Vim pelo portfólio.")} external>Falar com Trapp</TextLink><TextLink href={INSTAGRAM_URL} external>@ruantrapp no Instagram</TextLink></div>
-          </Reveal>
-        </div>
-
-        <div className="mt-20 grid gap-8 border-t border-white/15 pt-8 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="flex items-center gap-4"><Monogram /><div><p className="text-xs font-semibold uppercase tracking-[0.18em]">Trapp</p><p className="mt-1 font-mono text-[8px] uppercase tracking-wider text-muted">Artista visual · desde 2018</p></div></div>
-          <div><p className="eyebrow text-gold">Base</p><a href="https://www.google.com/maps/search/?api=1&query=Jaragu%C3%A1+do+Sul+SC" target="_blank" rel="noreferrer" className="mt-3 flex items-center gap-2 text-xs text-muted transition-colors hover:text-gold"><MapPin size={13} /> Jaraguá do Sul · SC · Brasil</a></div>
-          <div><p className="eyebrow text-gold">Horário local</p><p className="mt-3 font-mono text-xs text-muted"><LocalTime /></p></div>
-          <div><p className="eyebrow text-gold">Navegue</p><div className="mt-3 flex gap-4 text-xs text-muted"><a href="#sobre" className="hover:text-gold">Sobre</a><a href="#obras" className="hover:text-gold">Obras</a><a href="#processo" className="hover:text-gold">Processo</a></div></div>
-        </div>
-
-        <div className="mt-10 flex flex-col gap-4 border-t border-white/10 pt-6 font-mono text-[8px] uppercase leading-4 tracking-[0.12em] text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Trapp · Arte, letra & território</p>
-          <div className="flex flex-wrap items-center gap-5"><a href="https://www.jdv.com.br/tantofaz/caminho-das-artes-jaragua-do-sul/" target="_blank" rel="noreferrer" className="transition-colors hover:text-gold">Fonte: JDV / Caminho das Artes</a><a href="#topo" className="inline-flex items-center gap-2 text-gold">Voltar ao topo <ArrowUp size={12} /></a></div>
+          </div>
         </div>
       </div>
     </footer>

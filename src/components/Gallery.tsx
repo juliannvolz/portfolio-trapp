@@ -47,7 +47,7 @@ export function Gallery({ onSelect }: GalleryProps) {
           <p className="font-mono text-[9px] uppercase tracking-[0.15em] text-muted" aria-live="polite">{String(filtered.length).padStart(2, "0")} {filtered.length === 1 ? "projeto" : "projetos"}</p>
         </div>
 
-        <motion.div layout className="mt-10 grid grid-cols-1 gap-x-6 gap-y-14 md:grid-cols-12 md:gap-y-20">
+        <motion.div layout className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-12 md:gap-y-12">
           <AnimatePresence mode="popLayout" initial={false}>
             {filtered.map((work) => (
               <WorkCard key={work.id} work={work} onSelect={onSelect} />
@@ -67,7 +67,16 @@ export function Gallery({ onSelect }: GalleryProps) {
 }
 
 function WorkCard({ work, onSelect }: { work: Work; onSelect: (id: string) => void }) {
-  const span = work.ratio === "landscape" ? "md:col-span-7" : "md:col-span-5";
+  const span = "md:col-span-6";
+  const isFeatured = work.featured;
+  const featuredSpan = isFeatured 
+  ? (work.ratio === "portrait" ? "md:col-span-12 lg:col-span-6" : "md:col-span-12 lg:col-span-8")
+  : span;
+
+  const noiseStyle = {
+    backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
+  } as React.CSSProperties;
+
   return (
     <motion.article
       layout
@@ -75,26 +84,57 @@ function WorkCard({ work, onSelect }: { work: Work; onSelect: (id: string) => vo
       animate={{ opacity: 1, y: 0, clipPath: "inset(0 0 0% 0)" }}
       exit={{ opacity: 0, scale: 0.96, transition: { duration: 0.25 } }}
       transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-      className={`${span} self-start`}
+      className={`${featuredSpan} self-start`}
     >
-      <button type="button" onClick={() => onSelect(work.id)} data-cursor="ABRIR" className="work-card group block w-full text-left" aria-label={`Abrir projeto ${work.title}`}>
-        <div className={`image-zoom relative overflow-hidden bg-panel ${work.ratio === "portrait" ? "aspect-[4/5]" : "aspect-[4/3]"}`}>
-          <img src={work.image} alt={work.alt} width={work.ratio === "portrait" ? 1000 : 1400} height={work.ratio === "portrait" ? 1250 : 1050} loading="lazy" className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-ink/15 opacity-70 transition-opacity duration-500 group-hover:opacity-95" />
-          <div className="absolute inset-3 border border-white/0 transition-colors duration-500 group-hover:border-gold/45" />
-          <span className="absolute left-5 top-5 font-mono text-[9px] tracking-[0.18em] text-bone/75">{work.index} / 08</span>
-          <span className="work-arrow absolute right-5 top-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/40 bg-ink/25 text-bone backdrop-blur-sm"><ArrowUpRight size={17} strokeWidth={1.5} /></span>
-          <div className="absolute inset-x-5 bottom-5 flex items-end justify-between gap-4">
-            <span className="eyebrow text-gold">{work.category}</span>
-            <span className="font-mono text-[8px] uppercase tracking-[0.14em] text-bone/65">{work.year}</span>
+      <button
+        type="button"
+        onClick={() => onSelect(work.id)}
+        data-cursor="ABRIR"
+        className="work-card group block w-full text-left"
+        aria-label={`Abrir projeto ${work.title}`}
+      >
+        {/* Polaroid Street Style Wrapper */}
+        <div className="relative bg-[var(--color-concrete-900)] p-2.5 pb-6 shadow-[0_6px_24px_rgba(0,0,0,0.45)] rotate-[-0.4deg] hover:rotate-[0.4deg] transition-transform duration-300 border border-[var(--color-concrete-700)] group-hover:border-gold/30 group-hover:shadow-[0_10px_32px_rgba(212,175,55,0.12)]">
+          {/* "Tape" strip at top - street aesthetic */}
+          <div className="absolute top-[-6px] left-1/2 -translate-x-1/2 w-14 h-2.5 bg-gradient-to-r from-amber-600/90 to-amber-700/70 rounded blur-sm opacity-80 group-hover:opacity-100 transition-opacity" aria-hidden="true" />
+          
+          {/* Photo area */}
+          <div className={`relative overflow-hidden ${work.ratio === "portrait" ? "aspect-[3/4]" : "aspect-[4/3]"}`}>
+            <img
+              src={work.image}
+              alt={work.alt}
+              width={work.ratio === "portrait" ? 1200 : 1600}
+              height={work.ratio === "portrait" ? 1600 : 1200}
+              loading="lazy"
+              className="h-full w-full object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
+            />
+            {/* Inner vignette */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-concrete-900)]/50 via-transparent to-transparent pointer-events-none" aria-hidden="true" />
+            {/* Subtle noise texture overlay */}
+            <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={noiseStyle} aria-hidden="true" />
           </div>
+          
+          {/* Info on the "polaroid border" bottom */}
+          <div className="absolute bottom-1.5 left-2.5 right-2.5 flex items-center justify-between text-[8px] font-mono uppercase tracking-[0.1em] text-[var(--color-silver)]">
+            <span className="text-gold/80">{work.category}</span>
+            <span className="text-bone/50">{work.year}</span>
+          </div>
+          
+          {/* Featured badge */}
+          {isFeatured && (
+            <div className="absolute top-2.5 right-2.5 px-1.5 py-0.5 bg-gold/20 border border-gold/40 text-[7px] font-mono uppercase tracking-[0.08em] text-gold">
+              DESTAQUE
+            </div>
+          )}
         </div>
-        <div className="mt-5 flex items-start justify-between gap-4 border-t border-white/15 pt-4">
+        
+        {/* Title & subtitle below polaroid */}
+        <div className="mt-3 flex items-start justify-between gap-3">
           <div>
-            <h3 className="font-display text-[clamp(2.2rem,4vw,3.8rem)] leading-none text-bone transition-colors group-hover:text-gold">{work.title}</h3>
-            <p className="mt-2 text-xs font-light text-muted">{work.subtitle}</p>
+            <h3 className="font-display text-[clamp(2rem,3.5vw,3.4rem)] leading-none text-bone transition-colors group-hover:text-gold">{work.title}</h3>
+            <p className="mt-0.5 text-xs font-light text-muted max-w-xs">{work.subtitle}</p>
           </div>
-          <span className="mt-2 hidden font-mono text-[8px] uppercase tracking-[0.12em] text-bone/35 sm:block">Ver caso</span>
+          <span className="mt-1.5 hidden font-mono text-[7px] uppercase tracking-[0.1em] text-bone/35 sm:block">Ver caso</span>
         </div>
       </button>
     </motion.article>

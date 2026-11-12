@@ -4,10 +4,12 @@ export function Footer() {
       <div className="container mx-auto max-w-5xl">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <p className="type-display text-[var(--text-h2)] text-[var(--color-bone)] mb-4">
-              RUAN TRAPP
-            </p>
-            <p className="type-mono text-[var(--color-silver)]">
+            <img 
+              src="/images/logotrappazulsemfundo.png" 
+              alt="Ruan Trapp" 
+              className="h-16 md:h-20 w-auto mx-auto md:mx-0 mb-4" 
+            />
+            <p className="type-mono text-[var(--color-silver)] text-center md:text-left">
               Jaraguá do Sul — SC
             </p>
           </div>
@@ -22,7 +24,7 @@ export function Footer() {
               © 2026 Ruan Trapp
             </p>
             <a
-              href="#inicio"
+              href="#topo"
               className="type-mono text-[var(--color-gold)] hover:underline inline-flex items-center gap-2"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">

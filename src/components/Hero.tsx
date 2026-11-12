@@ -20,9 +20,6 @@ export function Hero() {
         .from(".hero-meta", { y: 25, opacity: 0, duration: 0.85, stagger: 0.08 }, 0.8)
         .from(".hero-seal", { scale: 0, rotate: -90, duration: 1.1, ease: "back.out(1.5)" }, 1);
 
-      gsap.to(".hero-seal", { rotate: 360, duration: 34, repeat: -1, ease: "none" });
-      gsap.to(".hero-ghost", { yPercent: -8, duration: 6, yoyo: true, repeat: -1, ease: "sine.inOut" });
-
       const scroll = gsap.timeline({
         scrollTrigger: {
           trigger: section,
@@ -34,8 +31,7 @@ export function Hero() {
       scroll
         .to(".hero-media", { clipPath: "polygon(10% 12%, 100% 12%, 100% 88%, 0% 88%)", ease: "none" }, 0)
         .to(".hero-media img", { scale: 1.25, yPercent: 10, ease: "none" }, 0)
-        .to(".hero-content", { yPercent: -22, opacity: 0.12, ease: "none" }, 0)
-        .to(".hero-ghost", { xPercent: 20, opacity: 0, ease: "none" }, 0);
+        .to(".hero-content", { yPercent: -22, opacity: 0.12, ease: "none" }, 0);
     }, section);
 
     return () => context.revert();
@@ -44,12 +40,11 @@ export function Hero() {
   return (
     <section ref={sectionRef} id="topo" className="relative min-h-[100svh] overflow-hidden bg-ink" aria-labelledby="hero-title">
       <div className="hero-media absolute inset-y-0 right-0 w-full md:w-[76%]" style={{ clipPath: "polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%)" }}>
-        <img src="/images/caminho-das-artes.jpg" alt="Mural O canto que constrói — Caminho das Artes, Jaraguá do Sul" width="1600" height="1100" fetchPriority="high" className="h-full w-full object-cover object-center will-change-transform" />
-        <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/45 to-ink/10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-ink/35" />
+        <img src="/images/processo-arte.jpg" alt="Processo artístico — Ruan Trapp no ateliê" width="1920" height="1080" fetchPriority="high" className="h-full w-full object-contain object-center will-change-transform" />
+        <div className="absolute inset-0 bg-gradient-to-r from-ink/25 via-ink/15 to-ink/5" />
+        <div className="absolute inset-0 bg-gradient-to-t from-ink/15 via-transparent to-ink/20" />
       </div>
       <div className="absolute inset-0 opacity-30" style={{ backgroundImage: "linear-gradient(rgba(255,255,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px)", backgroundSize: "12.5vw 12.5vw" }} aria-hidden="true" />
-      <div className="hero-ghost pointer-events-none absolute -left-[4vw] top-[8vh] font-display text-[58vw] leading-none text-transparent opacity-[0.055] [-webkit-text-stroke:1px_#d4af37]" aria-hidden="true">T</div>
       <SprayCanvas className="absolute inset-0 h-full w-full opacity-90" />
       <div className="absolute inset-y-0 left-[var(--page-x)] hidden w-px bg-white/10 xl:block" aria-hidden="true" />
 
@@ -60,20 +55,17 @@ export function Hero() {
         </div>
 
         <div className="relative">
-          <div className="hero-seal absolute -top-20 right-[3%] hidden h-28 w-28 items-center justify-center rounded-full border border-gold/45 md:flex lg:-top-24 lg:h-36 lg:w-36" aria-hidden="true">
-            <img
-              src="/images/logo-trapp.png"
-              alt="Trapp"
-              className="h-full w-auto max-h-[32px] md:max-h-[40px] opacity-90"
-            />
-          </div>
 
           <div className="overflow-hidden pb-[0.06em]">
             <p className="hero-reveal eyebrow mb-4 text-gold md:mb-6">Trapp / artista visual</p>
           </div>
           <h1 id="hero-title" className="relative font-display font-bold leading-[0.69] tracking-[-0.035em]">
             <span className="block overflow-hidden pb-[0.08em]">
-              <span className="hero-reveal block text-[clamp(6.3rem,19vw,18.5rem)] text-bone">Trapp</span>
+              <img
+                src="/images/logotrappsemfundo.png"
+                alt="Trapp"
+                className="hero-reveal block h-[clamp(14rem,35vw,38rem)] w-auto opacity-90"
+              />
             </span>
           </h1>
 

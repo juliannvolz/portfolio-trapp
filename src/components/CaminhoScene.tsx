@@ -41,9 +41,9 @@ export function CaminhoScene() {
         return;
       }
 
-      gsap.set(".caminho-intro", { clipPath: "inset(0% 0% 0% 0%)" });
-      gsap.set(".caminho-media img", { opacity: 0, scale: 1.2 });
-      gsap.set(".caminho-media img:first-child", { opacity: 1 });
+gsap.set(".caminho-intro", { clipPath: "inset(0% 0% 0% 0%)" });
+      gsap.set(".caminho-media img", { opacity: 0, scale: 1.05 });
+      gsap.set(".caminho-media img:first-child", { opacity: 1, scale: 1.0 });
       gsap.set(".caminho-caption", { y: 90, opacity: 0 });
       gsap.set(".caminho-detail", { y: 40, opacity: 0 });
       gsap.set(".caminho-shade", { opacity: 0 });
@@ -63,22 +63,22 @@ export function CaminhoScene() {
       timeline
         .to(".caminho-intro", { clipPath: "inset(100% 0% 0% 0%)", duration: 0.3, ease: "power2.inOut" }, 0)
         .to(".caminho-intro-inner", { scale: 0.8, yPercent: -15, opacity: 0, duration: 0.5, ease: "power2.in" }, 0.1)
-        .to(".caminho-media img:first-child", { opacity: 1, scale: 1.02, duration: 1.2, ease: "power2.out" }, 0)
+        .to(".caminho-media img:first-child", { opacity: 1, scale: 1.0, duration: 1.2, ease: "power2.out" }, 0)
         .to(".caminho-shade", { opacity: 1, duration: 0.5 }, 0.5)
         .to(".caminho-caption", { y: 0, opacity: 1, duration: 0.65, ease: "power3.out" }, 0.8)
         .to(".caminho-detail", { y: 0, opacity: 1, stagger: 0.1, duration: 0.5 }, 1)
 
-        .to(".caminho-media img:nth-child(1)", { opacity: 0, scale: 1.15, duration: 0.6, ease: "power2.inOut" }, 1.2)
-        .to(".caminho-media img:nth-child(2)", { opacity: 1, scale: 1.02, duration: 1.2, ease: "power2.out" }, 1.2)
-        .to(".caminho-media img:nth-child(2)", { scale: 1.08, duration: 0.8, ease: "none" }, 1.8)
+        .to(".caminho-media img:nth-child(1)", { opacity: 0, scale: 1.08, duration: 0.6, ease: "power2.inOut" }, 1.2)
+        .to(".caminho-media img:nth-child(2)", { opacity: 1, scale: 1.0, duration: 1.2, ease: "power2.out" }, 1.2)
+        .to(".caminho-media img:nth-child(2)", { scale: 1.04, duration: 0.8, ease: "none" }, 1.8)
 
-        .to(".caminho-media img:nth-child(2)", { opacity: 0, scale: 1.15, duration: 0.6, ease: "power2.inOut" }, 2.2)
-        .to(".caminho-media img:nth-child(3)", { opacity: 1, scale: 1.02, duration: 1.2, ease: "power2.out" }, 2.2)
-        .to(".caminho-media img:nth-child(3)", { scale: 1.08, duration: 0.8, ease: "none" }, 2.8)
+        .to(".caminho-media img:nth-child(2)", { opacity: 0, scale: 1.08, duration: 0.6, ease: "power2.inOut" }, 2.2)
+        .to(".caminho-media img:nth-child(3)", { opacity: 1, scale: 1.0, duration: 1.2, ease: "power2.out" }, 2.2)
+        .to(".caminho-media img:nth-child(3)", { scale: 1.04, duration: 0.8, ease: "none" }, 2.8)
 
-        .to(".caminho-media img:nth-child(3)", { opacity: 0, scale: 1.15, duration: 0.6, ease: "power2.inOut" }, 3.0)
-        .to(".caminho-media img:nth-child(4)", { opacity: 1, scale: 1.02, duration: 1.2, ease: "power2.out" }, 3.0)
-        .to(".caminho-media img:nth-child(4)", { scale: 1.12, xPercent: -2, duration: 1, ease: "none" }, 3.5);
+        .to(".caminho-media img:nth-child(3)", { opacity: 0, scale: 1.08, duration: 0.6, ease: "power2.inOut" }, 3.0)
+        .to(".caminho-media img:nth-child(4)", { opacity: 1, scale: 1.0, duration: 1.2, ease: "power2.out" }, 3.0)
+        .to(".caminho-media img:nth-child(4)", { scale: 1.06, xPercent: -2, duration: 1, ease: "none" }, 3.5);
 
     }, section);
 
@@ -95,15 +95,15 @@ export function CaminhoScene() {
               ref={(el) => { imagesRef.current[i] = el; }}
               src={src}
               alt={caminhoAlts[i]}
-              width="1600"
-              height="1100"
+              width="3840"
+              height="2160"
               loading={i === 0 ? "eager" : "lazy"}
-              className="absolute inset-0 h-full w-full object-cover will-change-transform will-change-opacity"
+              className="absolute inset-0 h-full w-full object-cover object-center will-change-transform will-change-opacity [image-rendering:high-quality]"
             />
           ))}
         </div>
-        <div className="caminho-shade pointer-events-none absolute inset-0 bg-gradient-to-t from-ink via-ink/35 to-ink/40 opacity-0" />
-        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,.35)_1px,transparent_1px)] bg-[size:25vw_100%] opacity-30" />
+        <div className="caminho-shade pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/50 via-ink/15 to-ink/20 opacity-0" />
+        <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,.35)_1px,transparent_1px)] bg-[size:20vw_100%] opacity-30" />
 
         <div className="caminho-intro absolute inset-0 z-10 flex items-center justify-center bg-panel px-[var(--page-x)] text-center">
           <div className="caminho-intro-inner will-change-transform">

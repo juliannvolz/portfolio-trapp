@@ -51,13 +51,10 @@ export function Navigation({ menuOpen, setMenuOpen }: NavigationProps) {
             <img
               src="/images/logo-trapp.png"
               alt="Trapp"
-              className="h-10 w-auto sm:h-12 md:h-14 transition-transform duration-500 group-hover:rotate-3"
+              className="h-14 w-auto sm:h-20 md:h-28 lg:h-32 transition-transform duration-500 group-hover:rotate-3"
               width="120"
               height="40"
             />
-            <span className="hidden sm:block">
-              <span className="block font-mono text-[8px] uppercase tracking-[0.18em] text-muted">Visual artist · SC / BR</span>
-            </span>
           </a>
 
           <nav className="hidden items-center gap-7 lg:flex" aria-label="Navegação principal">

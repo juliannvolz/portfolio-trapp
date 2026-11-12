@@ -32,8 +32,9 @@ export function Header() {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="type-display text-[var(--text-h2)] text-[var(--color-bone)]" aria-label="Ruan Trapp - Início">
-            RUAN TRAPP
+          <Link href="/" className="flex items-center gap-2" aria-label="Ruan Trapp - Início">
+            <img src="/images/logo-trapp-alpha.png" alt="Ruan Trapp" className="h-10 md:h-12 w-auto" />
+            <span className="type-display text-[var(--text-h2)] text-[var(--color-bone)] hidden md:block">Visual Artist</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8" aria-label="Navegação principal">
