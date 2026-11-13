@@ -39,7 +39,7 @@ export function Hero() {
 
   return (
     <section ref={sectionRef} id="topo" className="relative min-h-[100svh] overflow-hidden bg-ink" aria-labelledby="hero-title">
-      <div className="hero-media absolute inset-y-0 right-0 w-full md:w-[76%]" style={{ clipPath: "polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%)" }}>
+      <div className="hero-media absolute inset-y-0 right-0 hidden w-full md:block md:w-[76%]" style={{ clipPath: "polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%)" }}>
         <img src="/images/processo-arte.jpg" alt="Processo artístico — Ruan Trapp no ateliê" width="1920" height="1080" fetchPriority="high" className="h-full w-full object-contain object-center will-change-transform" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/25 via-ink/15 to-ink/5" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink/15 via-transparent to-ink/20" />
@@ -48,28 +48,40 @@ export function Hero() {
       <SprayCanvas className="absolute inset-0 h-full w-full opacity-90" />
       <div className="absolute inset-y-0 left-[var(--page-x)] hidden w-px bg-white/10 xl:block" aria-hidden="true" />
 
-      <div className="hero-content page-shell relative z-10 flex min-h-[100svh] flex-col justify-end pb-8 pt-28 md:pb-10">
-        <div className="mb-auto flex items-center justify-between pt-5 md:pt-8">
+      <div className="hero-content page-shell relative z-10 flex min-h-[100svh] flex-col justify-start pb-8 pt-24 md:justify-end md:pb-10 md:pt-28">
+        <div className="mb-6 flex items-center justify-between pt-5 md:mb-auto md:pt-8">
           <p className="hero-meta eyebrow max-w-[220px] text-bone/65">Arte urbana · caligrafia gótica · grande escala</p>
           <p className="hero-meta hidden font-mono text-[9px] uppercase tracking-[0.2em] text-bone/55 md:block">26°29′S / 49°04′W<br />Jaraguá do Sul — BR</p>
         </div>
 
         <div className="relative">
 
-          <div className="overflow-hidden pb-[0.06em]">
-            <p className="hero-reveal eyebrow mb-4 text-gold md:mb-6">Trapp / artista visual</p>
+          <div className="flex flex-col items-center text-center md:block md:text-left">
+            <div className="overflow-hidden pb-[0.06em]">
+              <p className="hero-reveal eyebrow mb-3 text-gold md:mb-6">Trapp / artista visual</p>
+            </div>
+            <h1 id="hero-title" className="relative w-full font-display font-bold leading-[0.69] tracking-[-0.035em]">
+              <span className="block overflow-hidden pb-[0.08em]">
+                <picture className="block">
+                  <source media="(max-width: 767px)" srcSet="/images/logotrapp-mobile.webp" type="image/webp" />
+                  <source media="(max-width: 767px)" srcSet="/images/logotrapp-mobile.png" type="image/png" />
+                  <img
+                    src="/images/logotrappsemfundo.png"
+                    alt="Trapp"
+                    className="hero-reveal mx-auto block h-auto w-[min(66vw,18rem)] opacity-90 md:mx-0 md:h-[clamp(14rem,35vw,38rem)] md:w-auto"
+                  />
+                </picture>
+              </span>
+            </h1>
           </div>
-          <h1 id="hero-title" className="relative font-display font-bold leading-[0.69] tracking-[-0.035em]">
-            <span className="block overflow-hidden pb-[0.08em]">
-              <img
-                src="/images/logotrappsemfundo.png"
-                alt="Trapp"
-                className="hero-reveal block h-[clamp(14rem,35vw,38rem)] w-auto opacity-90"
-              />
-            </span>
-          </h1>
 
-          <div className="mt-4 grid items-end gap-6 border-t border-white/15 pt-5 md:grid-cols-12 md:pt-6">
+          <div className="relative -mx-[var(--page-x)] my-4 overflow-hidden md:hidden" style={{ clipPath: "polygon(24% 0%, 100% 0%, 100% 100%, 0% 100%)" }}>
+            <img src="/images/processo-arte.jpg" alt="Processo artístico — Ruan Trapp no ateliê" width="1280" height="720" loading="eager" className="block aspect-[16/9] w-full object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-r from-ink/25 via-ink/15 to-ink/5" />
+            <div className="absolute inset-0 bg-gradient-to-t from-ink/15 via-transparent to-ink/20" />
+          </div>
+
+          <div className="mt-3 grid items-end gap-4 border-t border-white/15 pt-4 md:mt-4 md:grid-cols-12 md:gap-6 md:pt-6">
             <p className="hero-meta text-[11px] font-semibold uppercase leading-relaxed tracking-[0.18em] text-bone md:col-span-4 md:text-xs">
               Muralista <span className="mx-2 text-gold">&</span><br className="hidden md:block" /> Calligraffiti artist
             </p>
@@ -87,7 +99,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="hero-meta mt-6 flex items-center justify-between md:mt-8">
+        <div className="hero-meta mt-auto flex items-center justify-between md:mt-8">
           <a href="#sobre" className="group flex items-center gap-3 font-mono text-[8px] uppercase tracking-[0.2em] text-bone/45 transition-colors hover:text-gold">
             <span className="relative h-8 w-px overflow-hidden bg-white/20"><span className="absolute inset-x-0 top-0 h-1/2 animate-[scroll-line_1.8s_ease-in-out_infinite] bg-gold" /></span>
             Role para entrar
